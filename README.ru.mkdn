@@ -1,26 +1,25 @@
 XS Fun
 ======
 
-Any XS guru will tell you XS is easy. I've heard this many times. While it may
-be true, I realized one thing: XS can be scary.
+Любой XS-гуру скажет вам, что XS - это просто. Я слышал это много раз.
+Но, хотя это и может быть правдой, я понял одну вещь: XS может быть страшным.
 
-The purpose of this guide is to make XS fun. Yes, fun. Try it out, if you won't
-feel as exhilarated as I do as you make your way up the stairs of XS
-knowledge, I will fully reimburse your tuition.
+Цель этого руководства - сделать XS клёвым. Да, клёвым. Попробуйте - если вы не будете
+ощущать такого же восторга, как и я, когда будете подниматься по лестнице знаний XS -
+я полностью возмещу ваше обучение.
 
-Ground rules
-------------
+Основные правила
+----------------
 
-1. We use a template instead of [`h2xs`](http://perldoc.perl.org/h2xs.html).
-2. We do not bundle an additional C library.
-3. We assume you have at least Perl 5.14.2.
+1. Мы будем использовать шаблон вместо [`h2xs`](http://perldoc.perl.org/h2xs.html).
+2. Мы не будем связываться с дополнительной C-библиотекой
+3. Мы предполагаем, что у вас есть, как минимум, Perl 5.14.2.
 
-These are the best bits of advice I've received so far and they've proven
-to be crucial.
+Это лучшие советы, которые я когда-либо получал, и они доказали свою важность.
 
-`h2xs` is old and crufty, and thus far seems more like a hurdle. Instead,
-this guide includes a skeleton for each exercise that you can copy and use
-each time you start a new project.
+`h2xs` старый и кривой, от него одни проблемы. Вместо него в это руководство
+включена заготовка для каждого упражнения, которую можно скопировать и использовать
+каждый раз, когды вы начинаете новый проект.
 
 Bundling additional C libraries requires hacks with `ExtUtils::MakeMaker`
 (which is a war in and of itself), including tab character nightmares and
