@@ -1,5 +1,5 @@
-XS Fun
-======
+XS - это клёво
+==============
 
 Любой XS-гуру скажет вам, что XS - это просто. Я слышал это много раз.
 Но, хотя это и может быть правдой, я понял одну вещь: XS может быть страшным.
@@ -21,26 +21,26 @@ XS Fun
 включена заготовка для каждого упражнения, которую можно скопировать и использовать
 каждый раз, когды вы начинаете новый проект.
 
-Bundling additional C libraries requires hacks with `ExtUtils::MakeMaker`
-(which is a war in and of itself), including tab character nightmares and
-additional recursive Makefiles. One way around the obvious "you need to have
-this library installed" problem is to provide an `Alien` package. This guide
-might go over it at some point but makes no promises.
+Упаковка дополнительных C-библиотек требует хаков с `ExtUtils::MakeMaker`
+(что уже само по себе проблема), включая ночной кошмар табуляций и
+дополнительные рекурсивные Makefile. Один из способов обойти пресловутую
+проблему "you need to have this library installed" предоставляет пакет `Alien`.
+Это руководство может перейти на него в какой-то момент, но обещать не могу.
 
-Eliminating the use of `h2xs` and bundling any C libraries we use (that
-we haven't written by ourselves) removes a lot of needless complexity.
+Отказ от использования `h2xs` и упаковки любых сторонних (написанных не нами) C-библиотек
+избавляет от множества лишних сложностей.
 
-Perl 5.14.2 is prevalent enough to consider it a starting ground, though at
-this point it is not yet necessarily important.
+Perl 5.14.2 достаточно распространен, чтобы считать его отправной точкой, хотя этот
+пункт не так уж и важен.
 
-Relevant resources
-------------------
+См. также
+---------
 
 * [perlxs](http://perldoc.perl.org/perlxs.html) (`perldoc perlxs`)
 * [perlapi](http://perldoc.perl.org/perlapi.html) (`perldoc perlapi`)
 
-More advanced or specialized resources
---------------------------------------
+Более продвинутые и специализированные источники
+------------------------------------------------
 
 * [General index](http://perldoc.perl.org/index-internals.html)
 * [perlxstypemap](http://perldoc.perl.org/perlxstypemap.html) (`perldoc perlxstypemap`)
